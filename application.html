@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/3d.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Products</title>
+</head>
+<body>
+    <div class="header">
+        <em><h1 class="logo">Electro</h1></em>
+        <div class="Sub-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="application.html">Application</a></li>
+                <a class="cart" id="cart"  href="#">
+                    <i class="fas fa-shopping-cart"></i> Cart <span class="cart-count">0</span>
+                </a>
+                
+            </ul>
+        <h2>Our products</h2>
+    </div>
+    </div>
+    <div class="container">
+        <div class="products">
+            <img src="img/p1.jpg" alt="">
+            <h4 id="name">Bluetooth Speaker</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>500$</p>
+            <p>Up to 24 hour battery, plus quick charging, IP67 water.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Bluetooth Speaker', 500);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p2.jpg" alt="">
+            <h4>Vaccum Cleaner</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>800$</p>
+            <p>Lightweight and easy to maneuver, powerful suction for cleaning tight spaces.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Vaccum Cleaner', 800);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p3.webp" alt="">
+            <h4>Air Frayer</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>270$</p>
+            <p>Made from high quality materials, perfect for cooking or baking.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Air Frayer', 270);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p4.jpg" alt="">
+            <h4>Samsung Smart T.V</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>3000$</p>
+            <p>Small size with a large screen, perfect for watching movies.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Samsung Smart T.V', 3000);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p5.webp" alt="">
+            <h4>Hair Drayer</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>300$</p>
+            <p>Soft and smooth hair drayer, great for styling your long hair.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Hair Drayer', 300);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p6.jpg" alt="">
+            <h4>Blender</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>1200$</p>
+            <p>Pre-Programmed, Heavy Duty, LCD display, 1100 watts</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Blender', 1200);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p7.webp" alt="">
+            <h4>Mini Fridge</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>700$</p>
+            <p>Perfect for small kitchens, it can keep food fresh for up to 8 hours.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Mini Fridge', 700);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p8.jpg" alt="">
+            <h4>Glue Heat Gun </h4>
+            <p id="price"><strong style="color: black;">Price :</strong>360$</p>
+            <p>Heavy Duty, 25 watts, Variable Speed & Heat, Best quality and safety.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Glue Heat Gun', 360);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p9.webp" alt="">
+            <h4>Portable Air Conditioner</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>2260$</p>
+            <p>Lightweight and easy to carry around, perfect for traveling.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Portable Air Conditioner', 2260);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p10.webp" alt="">
+            <h4>Sound System</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>5000$</p>
+            <p>High Quality Sound System, Perfect for parties and events.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Sound System', 5000);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p11.jpg" alt="">
+            <h4>French Door Refrigerator</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>10000$</p>
+            <p>Large Size, French Door Style, Great for entertainment purposes.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('French Door Refrigerator', 10000);return false;">Add to Cart</button></a>
+        </div>
+        <div class="products">
+            <img src="img/p12.webp" alt="">
+            <h4>Washing Machine</h4>
+            <p id="price"><strong style="color: black;">Price :</strong>11000$</p>
+            <p>Capacity - 25 Kg ,Speed - 100 ltr/Hr ,Power - 12 Kw
+                Vibration Reduction.</p>
+                <a href="#"><button type="submit" class="Add-btn" onclick="addToCart('Washing Machine', 11000);return false;">Add to Cart</button></a>
+        </div>
+        
+    </div>
+    <footer>
+        © Electro Inc., All rights reserved.<br />
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <button id="cancel" onclick="cancelCart()">Empty the cart</button> 
+            <button id="continue" onclick="redirect(event)">Continue</button>
+        </div>
+    </div>
+    <script src="myFunction.js"></script>
+</body>
+</html>
